@@ -1,6 +1,6 @@
-echo "assign ip address"
-ifconfig enp9s0f1 192.168.1.10
-sleep 2
+#echo "assign ip address"
+#ifconfig enp9s0f1 192.168.1.10
+#sleep 2
 echo "mount"
 mount -a
 echo "start nfs"
