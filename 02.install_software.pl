@@ -41,7 +41,7 @@ my @node=(1..7,"f");
 
 my $cmd="dnf install -y $package_name";
 
-my $run_cmd="export http_proxy=proxy.lzu.edu.cn:8080; setsid $cmd 1>>install.log 2>>install.err";
+my $run_cmd="export http_proxy=proxy.lzu.edu.cn:8080; setsid $cmd 1>>~/install.log 2>>~/install.err";
 system($run_cmd);
 
 foreach my $node(@node){
