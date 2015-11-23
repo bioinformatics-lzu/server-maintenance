@@ -20,7 +20,7 @@ chomp $input;
 $input=lc($input);
 if($input eq "y" || $input eq "yes"){
     print STDERR "Let's GO!\n";
-    open(O,"> installed_package.log");
+    open(O,">> installed_package.log");
     my ($sec,$min,$hour,$day,$mon,$year,$weekday,$yeardate,$savinglightday) = (localtime(time));
     $sec = ($sec < 10)? "0$sec":$sec;
     $min = ($min < 10)? "0$min":$min;
