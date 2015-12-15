@@ -1,4 +1,4 @@
-DEVICE="enp9s0f1enp9s0f1"
+DEVICE="enp9s0f1"
 BOOTPROTO="static"
 HWADDR="70:E2:84:0A:C1:E7"
 NM_CONTROLLED="yes"
